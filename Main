@@ -1,0 +1,24 @@
+import time
+
+# Get user input for operation and numbers
+operation = input('Would you like to use: ')
+number1 = float(input("Enter the first number: "))
+number2 = float(input("Enter the second number: "))
+
+print("calculating......")
+
+time.sleep(1)
+if operation == '+' or add or addition or plus:
+    result = number1 + number2
+    print("Result:", result)
+elif operation == '-' or subtraction or minus or subtract:
+    result = number1 - number2
+    print("Result:", result)
+elif operation == 'x' or '*' or mutltiplication or multiply:
+    result = number1 * number2
+    print ("Result:", result)
+elif operation == '/' or division or divide or slash:
+    result = number1 / number2
+    print("Result: ", result)
+else:
+    print("Invalid operation. Please use '+' or '-' for addition or subtraction.")
